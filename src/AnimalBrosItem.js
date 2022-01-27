@@ -5,4 +5,3 @@ export default function AnimalBrosItem(props) {
     <p>My Sibling: {props.animalBrothers}</p>
   </>;
 }
-

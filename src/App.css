@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
 /*
 Wanted to give contribution
 
@@ -48,18 +48,24 @@ Great Color Palette
 
 h2 {
   background-color: #FAEDCD;
+  font-family: 'QuickSand', 'Times New Roman', Times, serif;
+  font-weight: 500;
 }
 
 .alternate1 {
   text-align: center;
   margin: 0 auto;
   background-color: #CCD5AE;
+  font-family: 'QuickSand', 'Times New Roman', Times, serif;
+  font-weight: 400;
 }
 
 .alternate2 {
   text-align: center;
   margin: 0 auto;
   background-color: #E9EDC9;
+  font-family: 'QuickSand', 'Times New Roman', Times, serif;
+  font-weight: 400;
 }
 
 .listDisplay {
