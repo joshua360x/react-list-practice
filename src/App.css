@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
+/*
+Wanted to give contribution
+
+https://coolors.co/palette/ccd5ae-e9edc9-fefae0-faedcd-d4a373
+
+Great Color Palette 
+*/
 .App {
   text-align: center;
 }
@@ -35,4 +43,45 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+h2 {
+  background-color: #FAEDCD;
+  font-family: 'QuickSand', 'Times New Roman', Times, serif;
+  font-weight: 500;
+}
+
+.alternate1 {
+  text-align: center;
+  margin: 0 auto;
+  background-color: #CCD5AE;
+  font-family: 'QuickSand', 'Times New Roman', Times, serif;
+  font-weight: 400;
+}
+
+.alternate2 {
+  text-align: center;
+  margin: 0 auto;
+  background-color: #E9EDC9;
+  font-family: 'QuickSand', 'Times New Roman', Times, serif;
+  font-weight: 400;
+}
+
+.listDisplay {
+  display: flex;
+  padding: 2rem 0;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.hover1:hover {
+  background-color: #C7D6B0;
+  cursor: pointer;
+}
+
+.hover2:hover {
+  background-color: #E3EDCA;
+  cursor: pointer;
 }
