@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function FavFoodItem({ name, favFood }) {
   return <div>
-    <p>{name}</p>
-    <p>{favFood}</p>
+    <p>Name: {name}</p>
+    <p>Favorite Food: {favFood}</p>
   </div>;
 }
 

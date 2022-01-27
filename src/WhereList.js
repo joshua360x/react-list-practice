@@ -2,7 +2,7 @@ import React from 'react';
 import WhereItem from './WhereItem';
 
 function WhereList({ whereAbouts }) {
-  return <div>
+  return <div className='alternate2'>
     <h2>Here is the Where Are People From List Display</h2>
 
     {
