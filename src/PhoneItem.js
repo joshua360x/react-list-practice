@@ -1,9 +1,9 @@
 import React from 'react';
 
 export default function PhoneItem(props) {
-  return <div>
+  return <div className='hover1'>
     
-    <p>{props.phone}</p>
+    <p>Phone: {props.phone}</p>
   </div>;
 }
 

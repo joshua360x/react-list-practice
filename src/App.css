@@ -45,11 +45,13 @@ h2 {
 .alternate1 {
   text-align: center;
   margin: 0 auto;
+  background-color: #CCD5AE;
 }
 
 .alternate2 {
   text-align: center;
   margin: 0 auto;
+  background-color: #E9EDC9;
 }
 
 .listDisplay {
@@ -58,4 +60,14 @@ h2 {
   justify-content: space-around;
   align-items: center;
 
+}
+
+.hover1:hover {
+  background-color: #C7D6B0;
+  cursor: pointer;
+}
+
+.hover2:hover {
+  background-color: #E3EDCA;
+  cursor: pointer;
 }
